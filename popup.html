@@ -1,0 +1,26 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Ryoko</title>
+    <link rel="shortcut icon" type="image/png" href="images/icon.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+
+      <input id="pac-input" class="controls" type="text" placeholder="Search Cities..." />
+      <div id="legend">
+        <h4>Welcome to Ryoko!</h4>
+        <p>Pin the the destinations you have travelled to.</p>
+      </div>
+      <div id="map"></div>
+
+    <script src="popup.js"></script>
+   <script async defer src="https://maps.googleapis.com/maps/api/js?key=API_KEY&libraries=places&callback=initMap"></script>
+  </body>
+</html>
