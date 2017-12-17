@@ -3,8 +3,10 @@
 A Chrome extension for adding markers to the locations a user has traveled to using Google Maps.
 
 ## Getting Started
-Clone or download the repository
-Replace the API_KEY within the script tag, in popup.html with your own API KEY
+Retrieve your API KEY from google <br />
+Clone or download the repository <br />
+Go to popup.html <br />
+Replace the API_KEY within the script tag
 
 ## Instructions
 Go to Extensions within your chrome browser <br />
