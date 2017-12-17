@@ -4,7 +4,7 @@ A Chrome extension for adding markers to the locations a user has traveled to us
 
 ## Getting Started
 Clone or download the repository
-Chrome Browser
+Replace the API_KEY within the script tag, in popup.html with your own API KEY
 
 ## Instructions
 Go to Extensions within your chrome browser <br />
